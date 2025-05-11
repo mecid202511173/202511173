@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Hakkımda </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="icon" href="img/logo.png" type="image/png">
+
+</head>
+
+<body>
+   
+  <header class="site-header">
+    <img src="img/logo.png" alt="Header Image" class="header-img">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="index.html">ProtezTek</a>
+      </div>
+      <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+      </button>
+      <nav class="main-nav" id="mainNav">
+          <ul>
+              <li><a href="index.html">Ana Sayfa</a></li>
+              <li><a href="hakkımda.html">Hakkımızda</a></li>
+              <li><a href="iletisim.html">İletişim</a></li>
+              <div class="toggle-switch">
+                  <label class="switch-label">
+                      <input type="checkbox" class="checkbox" id="colorToggle">
+                      <span class="slider"></span>
+                  </label>
+              </div>
+          </ul> 
+      </nav>
+    </div>
+
+  </header>
+
+  <div class="protez-about-container">
+    <section class="protez-about-section">
+        <div class="protez-about-header">
+            <h2 class="protez-about-title">Elektronik Protez Uzmanı</h2>
+            <div class="protez-about-divider"></div>
+        </div>
+        
+        <div class="protez-about-content">
+            <div class="protez-about-image">
+                <img src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Protez Uzmanı">
+            </div>
+            
+            <div class="protez-about-text">
+                <h3 class="protez-about-subtitle">Biyonik Çözümlerde İnovasyon</h3>
+                <p class="protez-about-paragraph">0 yıllık deneyimimle, elektronik protez sistemleri alanında uzmanlaştım. EMG tabanlı kontrol sistemleri ve nöral arayüz teknolojileri üzerine çalışmalar yürütüyorum.</p>
+                <p class="protez-about-paragraph">Geliştirdiğim protezler, doğal hareket kabiliyeti ve kullanıcı dostu arayüzleriyle öne çıkıyor. Amacım, teknolojiyi insan hayatını iyileştirmek için kullanmak.</p>
+                
+                <div class="protez-skills">
+                    <div class="protez-skill-item">
+                        <div class="protez-skill-info">
+                            <span class="protez-skill-name">EMG Sinyal İşleme</span>
+                            <span class="protez-skill-percent">2%</span>
+                        </div>
+                        <div class="protez-skill-bar">
+                            <div class="protez-skill-progress" style="width: 2%;"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="protez-skill-item">
+                        <div class="protez-skill-info">
+                            <span class="protez-skill-name">Elektronik Devresi</span>
+                            <span class="protez-skill-percent">3%</span>
+                        </div>
+                        <div class="protez-skill-bar">
+                            <div class="protez-skill-progress" style="width: 3%;"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="protez-skill-item">
+                        <div class="protez-skill-info">
+                            <span class="protez-skill-name">Yapay Zeka Entegrasyonu</span>
+                            <span class="protez-skill-percent">5%</span>
+                        </div>
+                        <div class="protez-skill-bar">
+                            <div class="protez-skill-progress" style="width: 5%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="protez-comparison-table">
+  <h2 class="protez-table-title">Elektronik Protez Teknik Özellikler</h2>
+  
+  <table class="protez-feature-table">
+    <thead>
+      <tr>
+        <th>Özellik</th>
+        <th>Arduino Tabanlı</th>
+        <th>EMG Sensörlü</th>
+        <th>Hassas Dokunuş</th>
+        <th>Dijital Ekran</th>
+        <th>Bluetooth</th>
+        <th>Telefon Algılama</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="protez-feature-name">Kontrol Sistemi</td>
+        <td><i class="fas fa-check"></i> Mikrodenetleyici</td>
+        <td><i class="fas fa-check"></i> Kas Sinyalleri</td>
+        <td><i class="fas fa-check"></i> Basınç Sensörleri</td>
+        <td><i class="fas fa-check"></i> Dokunmatik Arayüz</td>
+        <td><i class="fas fa-check"></i> Kablosuz</td>
+        <td><i class="fas fa-check"></i> Akıllı Telefon</td>
+      </tr>
+      <tr>
+        <td class="protez-feature-name">Programlanabilir</td>
+        <td><i class="fas fa-check"></i> Tam</td>
+        <td><i class="fas fa-check"></i> Kısmi</td>
+        <td><i class="fas fa-times"></i> Yok</td>
+        <td><i class="fas fa-check"></i> Sınırlı</td>
+        <td><i class="fas fa-check"></i> Evet</td>
+        <td><i class="fas fa-check"></i> Uygulama ile</td>
+      </tr>
+      <tr>
+        <td class="protez-feature-name">Ağırlık</td>
+        <td>1.4 kg</td>
+        <td>1.2 kg</td>
+        <td>1.6 kg</td>
+        <td>1.5 kg</td>
+        <td>1.3 kg</td>
+        <td>1.5 kg</td>
+      </tr>
+      <tr>
+        <td class="protez-feature-name">Hassasiyet</td>
+        <td>Orta</td>
+        <td>Yüksek</td>
+        <td>Çok Yüksek</td>
+        <td>Değişken</td>
+        <td>Orta</td>
+        <td>Yüksek</td>
+      </tr>
+      <tr>
+        <td class="protez-feature-name">Pil Ömrü</td>
+        <td>8-12 Saat</td>
+        <td>6-8 Saat</td>
+        <td>10-14 Saat</td>
+        <td>8-10 Saat</td>
+        <td>12-16 Saat</td>
+        <td>6-10 Saat</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+  <div class="hero-textA">
+    <h2> Malzemelerin Anlatımı </h2>
+  </div>
+  <div class="malzeme-container">
+    <span class="malzeme" tabindex="0" onclick="gosterAciklama(0)">Arduino Uno</span>
+    <span class="malzeme" tabindex="0" onclick="gosterAciklama(1)">Servo Motor</span>
+    <span class="malzeme" tabindex="0" onclick="gosterAciklama(2)">Flex Sensör</span>
+    <span class="malzeme" tabindex="0" onclick="gosterAciklama(3)">Li-Po Batarya</span>
+    <span class="malzeme" tabindex="0" onclick="gosterAciklama(4)">Bluetooth Modülü</span>
+    <span class="malzeme" tabindex="0" onclick="gosterAciklama(5)">3D Baskı Parçalar</span>
+    <span class="malzeme" tabindex="0" onclick="gosterAciklama(6)">Breadboard</span>
+    <span class="malzeme" tabindex="0" onclick="gosterAciklama(7)">Jumper Kablolar</span>
+    <span class="malzeme" tabindex="0" onclick="gosterAciklama(8)">Sensör Kalkanı</span>
+    <span class="malzeme" tabindex="0" onclick="gosterAciklama(9)">Potansiyometre</span>
+  </div>
+  <div class="aciklama-kutu" id="aciklamaKutusu">
+    <div class="aciklama-icerik">
+      <img id="malzemeFoto" src="" alt="Malzeme Görseli">
+      <div class="aciklama-yazi" id="malzemeYazi"></div>
+    </div>
+  </div>
+
+  <script src="Js/javascript.js"></script>
+  <script src="Js/nav.js"></script>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4">
+          <h5>Hakkımızda</h5>
+          <p>Elektronik protez teknolojilerinde lider, insan hayatını kolaylaştırmak için buradayız.</p>
+        </div>
+
+        <div class="col-md-4 quick-links">
+          <h5>Hızlı Bağlantılar</h5>
+          <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+            <li><a href="#">Gizlilik Politikası</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h5>Bizi Takip Edin</h5>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/?locale=tr_TR" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/?lang=tr" target="_blank"><i class="fab fa-x"></i></a>
+            <a href="https://www.instagram.com/?hl=tr" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://tr.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <p>Adres: Ahi Evran Üniversitesi, Mimarlık Mühendislik Fakültesi</p>
+            <p>Tasarım & Yazılım: <a href="https://www.instagram.com/mecid_42">Mecid Sağiyr Afifi</a></p>
+          </div>
+        </div>
+
+      </div>
+      <hr>
+      <div class="text-center">
+        <p>&copy; 2025 Elektronik Protez Teknolojileri. Tüm Hakları Saklıdır.</p>
+      </div>
+    </div>
+  </footer>
+  <button id="scrollToTopBtn" class="scroll-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  <script src="Js/usteaydir.js"></script>
+</body>
+</html>
